@@ -1,0 +1,36 @@
+/* ESTILOS PARA EL HEADER */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg-color {
+    background-color: hsl(0, 70%, 50%);
+}
+
+h1 {
+    color: #FFF;
+}
+/* FIN ESTILOS PARA EL HEADER */
+
+/* ESTILOS PARA EL FOOTER */
+.bg-color-pre-footer {
+    background-color: hsl(0, 5%, 85%);
+}
+
+.color-pre-footer {
+    color: #000;
+}
+
+.bg-color-footer {
+    background-color: hsl(0, 1%, 21%);
+}
+
+.texto-footer {
+    color: #FFF;
+    padding-left: 10px;
+}
+
+.ls-style {
+    list-style-type: none;
+}
+/* FIN DE ESTILOS PARA EL FOOTER */
