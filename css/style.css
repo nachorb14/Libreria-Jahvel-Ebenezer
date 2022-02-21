@@ -66,6 +66,24 @@ h1 {
 }
 /* FIN DE ESTILOS PARA CAJAS */
 
+/* ESTILOS PARA LOS GRIDS DE LAS PÁGINAS */
+.animation-img {
+    display: inline-block;
+    margin: 0 0.5rem;
+
+    animation: backInUp;
+    animation-duration: 2s;
+}
+
+.animation-txt {
+    display: inline-block;
+    margin: 0 0.5rem;
+
+    animation: backInDown;
+    animation-duration: 2s;
+}
+/* FIN ESTILOS PARA LOS GRIDS DE LAS PÁGINAS */
+
 /* ESTILOS NAVEGACIÓN ENTRE PÁGINAS */
 .color-navigation {
     color: hsl(0, 70%, 50%);
