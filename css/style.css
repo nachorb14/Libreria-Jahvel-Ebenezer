@@ -18,6 +18,10 @@ h1 {
     animation: flipInX;
     animation-duration: 2s;
 }
+
+.nav-top:hover {
+    opacity: 0.5 !important;
+}
 /* FIN ESTILOS PARA EL HEADER */
 
 /* ESTILOS PARA PRE PRODUCTOS */
