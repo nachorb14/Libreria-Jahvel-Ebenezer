@@ -11,14 +11,50 @@ h1 {
     color: #FFF;
 }
 
-.animation-nav {
-    transition: all 1s;
-}
+.animation-move {
+    display: inline-block;
+    margin: 0 0.5rem;
 
-.animation-nav:hover {
-    transform: scale(1.5);
+    animation: flipInX;
+    animation-duration: 2s;
 }
 /* FIN ESTILOS PARA EL HEADER */
+
+/* ESTILOS PARA PRE PRODUCTOS */
+.animation-spurgeon {
+    display: inline-block;
+    margin: 0 0.5rem;
+
+    animation: backInRight;
+    animation-duration: 1.5s;
+    border-radius: 5px;
+}
+
+.animation-texto-biblias{
+    display: inline-block;
+    margin: 0 0.5rem;
+
+    animation: backInLeft;
+    animation-duration: 1.5s;
+}
+
+.animation-texto-autores {
+    display: inline-block;
+    margin: 0 0.5rem;
+
+    animation: backInRight;
+    animation-duration: 1.5s;
+}
+
+.animation-autores {
+    display: inline-block;
+    margin: 0 0.5rem;
+
+    animation: backInLeft;
+    animation-duration: 1.5s;
+    border-radius: 5px;
+}
+/* FIN ESTILOS PARA PRE PRODUCTOS */
 
 /* ESTILOS PARA CAJAS */
 .animation-boxs {
