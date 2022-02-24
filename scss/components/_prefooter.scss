@@ -1,0 +1,19 @@
+/* Estilos pre footer */
+@import '../base/variables';
+
+footer {
+    .bg-color-pre-footer {
+        background-color: $color-pre-footer;
+        height: 100%;
+    }
+    .img-pre-footer {
+        width: 50px;
+    }
+    a {
+        text-decoration: none;
+    }
+    .color-pre-footer {
+        color: $color-textos-secundarios;
+    }
+}
+/* Fin estilos pre footer */

@@ -1,0 +1,17 @@
+/* Estilos Header */
+@import '../base/variables';
+
+.header {
+    .bg-color {
+        background-color: $color-principal;
+    }
+    .img-logo {
+        width: 45px;
+        height: 60px;
+    }
+    h1 {
+        color: $color-textos;
+    }
+}
+
+/* Fin estilos Header */

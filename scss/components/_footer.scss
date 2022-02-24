@@ -1,0 +1,27 @@
+/* Estilos del Footer */
+@import '../base/variables';
+
+footer {
+    .bg-color-footer {
+        background-color: $color-footer;
+        height: 100%;
+    }
+    .img-logo {
+        width: 45px;
+        height: 60px;
+    }
+    .texto-footer {
+        color: $color-textos;
+        padding-left: 10px;
+    }
+    .ls-style {
+        list-style-type: none;
+    }
+    .img-footer {
+        width: 40px;
+    }
+    .img-redes-footer {
+        width: 45px;
+    }
+}
+/* Fin estilos del footer */
