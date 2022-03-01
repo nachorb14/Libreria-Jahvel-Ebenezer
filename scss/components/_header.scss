@@ -1,6 +1,10 @@
 /* Estilos Header */
 @import '../base/variables';
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .header {
     .bg-color {
         background-color: $color-principal;

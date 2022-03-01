@@ -1,4 +1,8 @@
 /* Estilos Header */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 .header .bg-color {
   background-color: #d92626;
 }
