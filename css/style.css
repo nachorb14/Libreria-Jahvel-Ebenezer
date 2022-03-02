@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Estilos Header */
 body {
   font-family: "Montserrat", sans-serif;
@@ -12,6 +13,9 @@ header .bg-color .img-logo {
 }
 header .bg-color h1 {
   color: #FFF;
+}
+header .bg-color .nav-top:hover {
+  opacity: 0.5;
 }
 
 /* Fin estilos Header */
@@ -33,6 +37,9 @@ footer .ls-style {
 }
 footer a {
   text-decoration: none;
+}
+footer a:hover {
+  opacity: 0.5;
 }
 footer .img-footer {
   width: 40px;
@@ -58,5 +65,11 @@ footer .bg-color-pre-footer .color-pre-footer {
 }
 
 /* Fin de estilos pre footer */
+/* Estilos navegación entre páginas */
+.navigation-page .color-navigation {
+  color: #d92626;
+}
+
+/* Fin de estilos navegación entre páginas */
 
 /*# sourceMappingURL=style.css.map */

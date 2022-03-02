@@ -15,6 +15,9 @@ header {
         h1 {
             color: map-get($header, txt-header);
         }
+        .nav-top:hover {
+            opacity: 0.5;
+        }
     }
 }
 

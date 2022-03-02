@@ -19,6 +19,9 @@ footer {
     }
     a {
         text-decoration: map-get($footer, a-decoration);
+        &:hover {
+            opacity: 0.5;
+        }
     }
     .img-footer {
         width: 40px;
