@@ -71,5 +71,25 @@ footer .bg-color-pre-footer .color-pre-footer {
 }
 
 /* Fin de estilos navegación entre páginas */
+.title-sec {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.box-products {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.txt-products {
+  font-size: 1rem;
+  text-align: center;
+  padding-top: 1rem;
+}
 
 /*# sourceMappingURL=style.css.map */
