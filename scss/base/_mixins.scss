@@ -1,0 +1,36 @@
+@mixin pre-footer($font-size, $color-txt, $padding-top, $padding-start) {
+    font-size: $font-size;
+    color: $color-txt;
+    padding-top: $padding-top;
+    padding-left: $padding-start;
+}
+
+@mixin footer-description($font-size, $padding-top, $padding-start, $color, $text-align) {
+    font-size: $font-size;
+    padding-top: $padding-top;
+    padding-left: $padding-start;
+    color: $color;
+    text-align: $text-align;
+}
+
+@mixin footer-contenido($font-size, $padding-top, $padding-bottom, $color, $align-self) {
+    font-size: $font-size;
+    padding-top: $padding-top;
+    padding-bottom: $padding-bottom;
+    color: $color;
+    align-self: $align-self;
+}
+
+@mixin footer-contacto($font-size, $padding-top, $color, $align-self) {
+    font-size: $font-size;
+    padding-top: $padding-top;
+    color: $color;
+    align-self: $align-self;
+}
+
+@mixin contactos($font-size, $padding-top, $padding-start, $color) {
+    font-size: $font-size;
+    padding-top: $padding-top;
+    padding-left: $padding-start;
+    color: $color;
+}

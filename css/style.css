@@ -28,6 +28,32 @@ footer .img-logo {
   width: 45px;
   height: 60px;
 }
+footer .txt-footer-desc {
+  font-size: 1rem;
+  padding-top: 1rem;
+  padding-left: 10px;
+  color: #FFF;
+  text-align: center;
+}
+footer .txt-footer-contenido {
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+  color: #FFF;
+  align-self: center;
+}
+footer .txt-footer-contacto {
+  font-size: 1.5rem;
+  padding-top: 0.5rem;
+  color: #FFF;
+  align-self: center;
+}
+footer .txt-contactos {
+  font-size: 1rem;
+  padding-top: 1rem;
+  padding-left: 10px;
+  color: #FFF;
+}
 footer .texto-footer {
   color: #FFF;
   padding-left: 10px;
@@ -60,8 +86,11 @@ footer .bg-color-pre-footer .img-pre-footer {
 footer .bg-color-pre-footer a {
   text-decoration: none;
 }
-footer .bg-color-pre-footer .color-pre-footer {
+footer .bg-color-pre-footer .txt-pre-footer {
+  font-size: 1rem;
   color: #000;
+  padding-top: 1rem;
+  padding-left: 1.5rem;
 }
 
 /* Fin de estilos pre footer */
@@ -90,6 +119,24 @@ footer .bg-color-pre-footer .color-pre-footer {
   font-size: 1rem;
   text-align: center;
   padding-top: 1rem;
+}
+
+.align-containers {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.align-redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  align-self: center;
+  padding-top: 1rem;
+  width: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -21,6 +21,23 @@
     padding-top: map-get($spacers, p-3);
 }
 
+%alineacion-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+%alineacion-redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
+    padding-top: map-get($spacers, p-3);
+    width: 50%;
+}
 
 .title-sec {
     @extend %titulos-secundarios;
@@ -32,4 +49,12 @@
 
 .txt-products {
     @extend %productos-txt;
+}
+
+.align-containers {
+    @extend %alineacion-footer;
+}
+
+.align-redes {
+    @extend %alineacion-redes;
 }
