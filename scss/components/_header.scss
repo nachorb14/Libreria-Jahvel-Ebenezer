@@ -1,20 +1,20 @@
 /* Estilos Header */
-@import '../base/variables';
+@import '../base/mapas';
 
 body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.header {
+header {
     .bg-color {
-        background-color: $color-principal;
-    }
-    .img-logo {
-        width: 45px;
-        height: 60px;
-    }
-    h1 {
-        color: $color-textos;
+        background-color: map-get($header, bg-color);
+        .img-logo {
+            width: 45px;
+            height: 60px;
+        }
+        h1 {
+            color: map-get($header, txt-header);
+        }
     }
 }
 

@@ -1,9 +1,9 @@
 /* Estilos del Footer */
-@import '../base/variables';
+@import '../base/mapas';
 
 footer {
     .bg-color-footer {
-        background-color: $color-footer;
+        background-color: map-get($footer, bg-color);
         height: 100%;
     }
     .img-logo {
@@ -11,11 +11,14 @@ footer {
         height: 60px;
     }
     .texto-footer {
-        color: $color-textos;
+        color: map-get($footer, txt-footer);
         padding-left: 10px;
     }
     .ls-style {
-        list-style-type: none;
+        list-style-type: map-get($footer, ls-style);
+    }
+    a {
+        text-decoration: map-get($footer, a-decoration);
     }
     .img-footer {
         width: 40px;

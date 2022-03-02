@@ -1,19 +1,20 @@
 /* Estilos pre footer */
-@import '../base/variables';
+@import '../base/mapas';
 
 footer {
     .bg-color-pre-footer {
-        background-color: $color-pre-footer;
+        background-color: map-get($pre-footer, bg-color);
         height: 100%;
-    }
-    .img-pre-footer {
-        width: 50px;
-    }
-    a {
-        text-decoration: none;
-    }
-    .color-pre-footer {
-        color: $color-textos-secundarios;
+        .img-pre-footer {
+            width: 50px;
+        }
+        a {
+            text-decoration: map-get($pre-footer, decoration);
+        }
+        .color-pre-footer {
+            color: map-get($pre-footer, txt-pre-footer);
+        }
     }
 }
-/* Fin estilos pre footer */
+
+/* Fin de estilos pre footer */
