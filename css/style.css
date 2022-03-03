@@ -139,4 +139,12 @@ footer .bg-color-pre-footer .txt-pre-footer {
   width: 50%;
 }
 
+.animation-scale {
+  transition: all 0.5s;
+}
+.animation-scale:hover {
+  transform: scale(1.1);
+  opacity: 0.85;
+}
+
 /*# sourceMappingURL=style.css.map */
