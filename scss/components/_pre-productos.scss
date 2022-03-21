@@ -1,0 +1,10 @@
+/*Estilos para pre-productos*/
+
+.boton-ver-todos {
+    background-color: hsl(0, 70%, 50%);
+    color: #FFF;
+    &:hover {
+        background-color: antiquewhite;
+        color: hsl(0, 70%, 50%);
+    }
+}

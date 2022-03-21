@@ -100,6 +100,16 @@ footer .bg-color-pre-footer .txt-pre-footer {
 }
 
 /* Fin de estilos navegación entre páginas */
+/*Estilos para pre-productos*/
+.boton-ver-todos {
+  background-color: #d92626;
+  color: #FFF;
+}
+.boton-ver-todos:hover {
+  background-color: antiquewhite;
+  color: #d92626;
+}
+
 .title-sec {
   font-size: 2rem;
   display: flex;
