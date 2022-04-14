@@ -7,21 +7,12 @@ class Benny_Hinn {
         this.paginas = paginas;
         this.sold = false;
     }
-
-    addIVA() {
-        this.precio = this.precio * 1.21;
-    }
 }
 
 const librosBennyHinn = [];
 
 librosBennyHinn.push(new Benny_Hinn('Ángeles Y Demonios', 1195, 'Peniel', 2011, 218));
 librosBennyHinn.push(new Benny_Hinn('Buenos Días Espíritu Santo', 2250, 'Grupo Nelson', 1990, 205));
-
-for(const libroBennyHinn of librosBennyHinn) {
-    libroBennyHinn.addIVA();
-}
-
 console.log(librosBennyHinn);
 
 class Bill_Johnson {
@@ -33,21 +24,12 @@ class Bill_Johnson {
         this.paginas = paginas;
         this.sold = false;
     }
-
-    addIVA() {
-        this.precio = this.precio * 1.21;
-    }
 }
 
 const librosBillJohnson = [];
 
 librosBillJohnson.push(new Bill_Johnson('Cuando El Cielo Invade La Tierra', 1135, 'Peniel', 2008, 231));
 librosBillJohnson.push(new Bill_Johnson('Cuando El Cielo Invade La Tierra Teens', 930, 'Peniel', 2020, 171));
-
-for(const libroBillJohnson of librosBillJohnson) {
-    libroBillJohnson.addIVA();
-}
-
 console.log(librosBillJohnson);
 
 class Brennan_Manning {
@@ -58,10 +40,6 @@ class Brennan_Manning {
         this.año = año;
         this.paginas = paginas;
         this.sold = false;
-    }
-
-    addIVA() {
-        this.precio = this.precio * 1.21;
     }
 }
 
@@ -75,11 +53,6 @@ librosBrennanManning.push(new Brennan_Manning('El Latido Del Corazón Del Rabí'
 librosBrennanManning.push(new Brennan_Manning('El Abrazo De Abba', 955, 'Peniel', 2015, 207));
 librosBrennanManning.push(new Brennan_Manning('León Y Cordero', 1115, 'Peniel', 2017, 239));
 librosBrennanManning.push(new Brennan_Manning('Destellos De Jesús', 1095, 'Peniel', 2003, 186));
-
-for(const libroBrennanManning of librosBrennanManning) {
-    libroBrennanManning.addIVA();
-}
-
 console.log(librosBrennanManning);
 
 class Dante_Gebel {
@@ -90,10 +63,6 @@ class Dante_Gebel {
         this.año = año;
         this.paginas = paginas;
         this.sold = false;
-    }
-
-    addIVA() {
-        this.precio = this.precio * 1.21;
     }
 }
 
@@ -107,11 +76,6 @@ librosDanteGebel.push(new Dante_Gebel('Las Arenas Del Alma', 1785, 'Vida', 2017,
 librosDanteGebel.push(new Dante_Gebel('Marea Baja', 1545, 'Harper Collins', 2017, 237));
 librosDanteGebel.push(new Dante_Gebel('Pasión De Multitudes', 1620, 'Vida', 2009, 224));
 librosDanteGebel.push(new Dante_Gebel('Los Mejores Mensajes De Dante Gebel', 1380, 'Vida', 2008, 192));
-
-for(const libroDanteGebel of librosDanteGebel) {
-    libroDanteGebel.addIVA();
-}
-
 console.log(librosDanteGebel);
 
 class Isaac_Pitre {
@@ -123,20 +87,11 @@ class Isaac_Pitre {
         this.paginas = paginas;
         this.vendido = false;
     }
-
-    addIVA() {
-        this.precio = this.precio * 1.21;
-    }
 }
 
 const librosIsaacPitre = [];
 
 librosIsaacPitre.push(new Isaac_Pitre('El Adn Divino', 450, 'Peniel', 2014, 111));
-
-for(const libroIsaacPitre of librosIsaacPitre) {
-    libroIsaacPitre.addIVA();
-}
-
 console.log(librosIsaacPitre);
 
 class Itiel_Arroyo {
@@ -148,20 +103,11 @@ class Itiel_Arroyo {
         this.paginas = paginas;
         this.vendido = false;
     }
-
-    addIVA() {
-        this.precio = this.precio * 1.21;
-    }
 }
 
 const librosItielArroyo = [];
 
 librosItielArroyo.push(new Itiel_Arroyo('Amar Es Para Valientes', 1450, 'E625', 2020, 152));
-
-for(const libroItielArroyo of librosItielArroyo) {
-    libroItielArroyo.addIVA();
-}
-
 console.log(librosItielArroyo);
 
 class Jim_George {
@@ -172,10 +118,6 @@ class Jim_George {
         this.año = año;
         this.paginas = paginas;
         this.vendido = false;
-    }
-
-    addIVA() {
-        this.precio = this.precio * 1.21;
     }
 }
 
@@ -188,11 +130,6 @@ librosJimGeorge.push(new Jim_George('Las 50 Enseñanzas Mas Importantes De La Bi
 librosJimGeorge.push(new Jim_George('Guia De Un Jovén Para Las Buenas Decisiones', 1330, 'Portavoz', 2017, 176));
 librosJimGeorge.push(new Jim_George('La Influencia De Un Hombre De Dios', 430, 'Portavoz', 2013, 205));
 librosJimGeorge.push(new Jim_George('Un Hombre Conforme Al Corazón De Dios', 700, 'Portavoz', 2005, 240));
-
-for(const libroJimGeorge of librosJimGeorge) {
-    libroJimGeorge.addIVA();
-}
-
 console.log(librosJimGeorge);
 
 class Josh_McDowell {
@@ -204,10 +141,6 @@ class Josh_McDowell {
         this.paginas = paginas;
         this.vendido = false;
     }
-
-    addIVA() {
-        this.precio = this.precio * 1.21;
-    }
 }
 
 const librosJoshMcDowell = [];
@@ -218,11 +151,6 @@ librosJoshMcDowell.push(new Josh_McDowell('Mas Que Un Carpintero', 550, 'Unilit'
 librosJoshMcDowell.push(new Josh_McDowell('Evidencia Que Demanda Un Veredicto', 4340, 'Mundo Hispano', 2019, 1008));
 librosJoshMcDowell.push(new Josh_McDowell('¿Tolerancia o Intolerancia?', 1600, 'Unilit', 2018, 235));
 librosJoshMcDowell.push(new Josh_McDowell('El Verdadero Amor Espera', 1460, 'CLC', 2017, 304));
-
-for(const libroJoshMcDowell of librosJoshMcDowell) {
-    libroJoshMcDowell.addIVA();
-}
-
 console.log(librosJoshMcDowell);
 
 class Joyce_Meyer {
@@ -233,10 +161,6 @@ class Joyce_Meyer {
         this.año = año;
         this.paginas = paginas;
         this.vendido = false;
-    }
-
-    addIVA() {
-        this.precio = this.precio * 1.21;
     }
 }
 
@@ -250,11 +174,6 @@ librosJoyceMeyer.push(new Joyce_Meyer('Confianza Inquebrantable', 1695, 'Faith W
 librosJoyceMeyer.push(new Joyce_Meyer('Usted Puede Comenzar De Nuevo', 1480, 'Faith Word', 2014, 205));
 librosJoyceMeyer.push(new Joyce_Meyer('Cómo Profundizar Su Relación Con Dios', 450, 'Peniel', 2013, 125));
 librosJoyceMeyer.push(new Joyce_Meyer('El Campo De Batalla De La Mente', 1760, 'Faith Word', 2011, 257));
-
-for(const libroJoyceMeyer of librosJoyceMeyer) {
-    libroJoyceMeyer.addIVA();
-}
-
 console.log(librosJoyceMeyer);
 
 class Junior_Zapata {
@@ -266,10 +185,6 @@ class Junior_Zapata {
         this.paginas = paginas;
         this.vendido = false;
     }
-
-    addIVA() {
-        this.precio = this.precio * 1.21;
-    }
 }
 
 const librosJuniorZapata = [];
@@ -277,11 +192,6 @@ const librosJuniorZapata = [];
 librosJuniorZapata.push(new Junior_Zapata('El Papá Imperfecto', 1020, 'Hoja Del Sur', 2011, 174));
 librosJuniorZapata.push(new Junior_Zapata('Agorafobia', 1330, 'Vida', 2009, 145));
 librosJuniorZapata.push(new Junior_Zapata('Elvis, Pitágoras Y La Historia De Dios', 1890, 'Vida Publishers', 2013, 218));
-
-for(const libroJuniorZapata of librosJuniorZapata) {
-    libroJuniorZapata.addIVA();
-}
-
 console.log(librosJuniorZapata);
 
 class Kathryn_Kuhlman {
@@ -293,10 +203,6 @@ class Kathryn_Kuhlman {
         this.paginas = paginas;
         this.vendido = false;
     }
-
-    addIVA() {
-        this.precio = this.precio * 1.21;
-    }
 }
 
 const librosKathrynKulhman = [];
@@ -304,11 +210,6 @@ const librosKathrynKulhman = [];
 librosKathrynKulhman.push(new Kathryn_Kuhlman('El Poder Mas Grande Del Mundo', 895, 'Peniel', 2008, 142));
 librosKathrynKulhman.push(new Kathryn_Kuhlman('Jesucristo Nuestro Sanador', 1060, 'Peniel', 2007, 188));
 librosKathrynKulhman.push(new Kathryn_Kuhlman('El Toque Del Maestro', 350, 'Peniel', 2009, 110));
-
-for(const libroKathrynKulhman of librosKathrynKulhman) {
-    libroKathrynKulhman.addIVA();
-}
-
 console.log(librosKathrynKulhman);
 
 class Lucas_Leys {
@@ -320,10 +221,6 @@ class Lucas_Leys {
         this.paginas = paginas;
         this.vendido = false;
     }
-
-    addIVA() {
-        this.precio = this.precio * 1.21;
-    }
 }
 
 const librosLucasLeys = [];
@@ -332,11 +229,6 @@ librosLucasLeys.push(new Lucas_Leys('Guia De Supervivencia Para Universitarios',
 librosLucasLeys.push(new Lucas_Leys('Diferente', 1400, 'Vida', 2015, 190));
 librosLucasLeys.push(new Lucas_Leys('La Batalla De Las Drogas', 1095, 'Vida', 2013, 103));
 librosLucasLeys.push(new Lucas_Leys('Liderazgo Generacional', 1330, 'E625', 2017, 217));
-
-for(const libroLucasLeys of librosLucasLeys) {
-    libroLucasLeys.addIVA();
-}
-
 console.log(librosLucasLeys);
 
 class Matt_Redman {
@@ -348,10 +240,6 @@ class Matt_Redman {
         this.paginas = paginas;
         this.vendido = false;
     }
-
-    addIVA() {
-        this.precio = this.precio * 1.21;
-    }
 }
 
 const librosMattRedman = [];
@@ -359,11 +247,6 @@ const librosMattRedman = [];
 librosMattRedman.push(new Matt_Redman('Postrados En Adoración', 250, 'Peniel', 2005, 120));
 librosMattRedman.push(new Matt_Redman('Lo Que Todo Adorador Debe Saber', 980, 'Peniel', 2004, 156));
 librosMattRedman.push(new Matt_Redman('El Adorador Insaciable', 400, 'Peniel', 2011, 124));
-
-for(const libroMattRedman of librosMattRedman) {
-    libroMattRedman.addIVA();
-}
-
 console.log(librosMattRedman);
 
 class Paolo_Lacota {
@@ -375,10 +258,6 @@ class Paolo_Lacota {
         this.paginas = paginas;
         this.vendido = false;
     }
-
-    addIVA() {
-        this.precio = this.precio * 1.21;
-    }
 }
 
 const librosPaoloLacota = [];
@@ -387,11 +266,6 @@ librosPaoloLacota.push(new Paolo_Lacota('Como Comenzar Tu Ministerio Con Pasos F
 librosPaoloLacota.push(new Paolo_Lacota('Como Salvar Tu Matrimonio Antes De Casarte', 1230, 'E625', 2017, 192));
 librosPaoloLacota.push(new Paolo_Lacota('Los Mas Buscados', 680, 'Certeza', 2014, 127));
 librosPaoloLacota.push(new Paolo_Lacota('Imagineria', 1220, 'E625', 2021, 192));
-
-for(const libroPaoloLacota of librosPaoloLacota) {
-    libroPaoloLacota.addIVA();
-}
-
 console.log(librosPaoloLacota);
 
 class Ron_Luce {
@@ -403,20 +277,11 @@ class Ron_Luce {
         this.paginas = paginas;
         this.vendido = false;
     }
-
-    addIVA() {
-        this.precio = this.precio * 1.21;
-    }
 }
 
 const librosRonLuce = [];
 
 librosRonLuce.push(new Ron_Luce('Amigos Sin Beneficios', 1210, 'Unilit', 2011, 175));
-
-for(const libroRonLuce of librosRonLuce) {
-    libroRonLuce.addIVA();
-}
-
 console.log(librosRonLuce);
 
 class Stephen_Arterburn {
@@ -428,10 +293,6 @@ class Stephen_Arterburn {
         this.paginas = paginas;
         this.vendido = false;
     }
-
-    addIVA() {
-        this.precio = this.precio * 1.21;
-    }
 }
 
 const librosStephenArterburn = [];
@@ -440,11 +301,6 @@ librosStephenArterburn.push(new Stephen_Arterburn('Un Matrimonio Aun Mejor', 525
 librosStephenArterburn.push(new Stephen_Arterburn('Tome Control De Lo Que Lo Controla', 970, 'Casa Creación', 2007, 123));
 librosStephenArterburn.push(new Stephen_Arterburn('Ser Cristiano', 1150, 'Peniel', 2008, 240));
 librosStephenArterburn.push(new Stephen_Arterburn('La Batalla De Cada Hombre', 750, 'Unilit', 2013, 247));
-
-for(const libroStephenArterburn of librosStephenArterburn) {
-    libroStephenArterburn.addIVA();
-}
-
 console.log(librosStephenArterburn);
 
 class Timothy_Jorgensen {
@@ -456,20 +312,11 @@ class Timothy_Jorgensen {
         this.paginas = paginas;
         this.vendido = false;
     }
-
-    addIVA() {
-        this.precio = this.precio * 1.21;
-    }
 }
 
 const librosTimothyJorgensen = [];
 
 librosTimothyJorgensen.push(new Timothy_Jorgensen('Aviva El Fuego De Tu Don', 1025, 'Peniel', 2013, 287));
-
-for(const libroTimothyJorgensen of librosTimothyJorgensen) {
-    libroTimothyJorgensen.addIVA();
-}
-
 console.log(librosTimothyJorgensen);
 
 class Yiye_Avila {
@@ -481,19 +328,109 @@ class Yiye_Avila {
         this.paginas = paginas;
         this.vendido = false;
     }
-
-    addIVA() {
-        this.precio = this.precio * 1.21;
-    }
 }
 
 const librosYiyeAvila = [];
 
 librosYiyeAvila.push(new Yiye_Avila('La Ciencia De La Oración', 1110, 'Unilit', 1994, 145));
 librosYiyeAvila.push(new Yiye_Avila('El Valle De Los Huesos Secos', 875, 'Unilit', 1996, 48));
-
-for(const libroYiyeAvila of librosYiyeAvila) {
-    libroYiyeAvila.addIVA();
-}
-
 console.log(librosYiyeAvila);
+
+const productos = [
+    {id: 1, nombre: 'Angeles Y Demonios', precio: 1195, editorial: 'Peniel', año: 2011, paginas: 218},
+    {id: 2, nombre: 'Buenos Dias Espiritu Santo', precio: 2250, editorial: 'Grupo Nelson', año: 1990, paginas: 205},
+    {id: 3, nombre: 'Cuando El Cielo Invade La Tierra', precio: 1135, editorial: 'Peniel', año: 2008, paginas: 231},
+    {id: 4, nombre: 'Cuando El Cielo Invade La Tierra teens', precio: 930, editorial: 'Peniel', año: 2020, paginas: 171},
+    {id: 5, nombre: 'La Firma De Jesus', precio: 1040, editorial: 'Peniel', año: 2014, paginas: 251},
+    {id: 6, nombre: 'Todo Es Gracia', precio: 960, editorial: 'Peniel', año: 2016, paginas: 204},
+    {id: 7, nombre: 'El Prodigo', precio: 975, editorial: 'Peniel', año: 2017, paginas: 320},
+    {id: 8, nombre: 'Sobre Todo', precio: 360, editorial: 'Peniel', año: 2018, paginas: 108},
+    {id: 9, nombre: 'El Latido Del Corazon Del Rabi', precio: 875, editorial: 'Peniel', año: 2017, paginas: 127},
+    {id: 10, nombre: 'El Abrazo De Abba', precio: 955, editorial: 'Peniel', año: 2015, paginas: 207},
+    {id: 11, nombre: 'Leon Y Cordero', precio: 1115, editorial: 'Peniel', año: 2017, paginas: 239},
+    {id: 12, nombre: 'Asuntos Internos', precio: 1330, editorial: 'Vida', año: 2011, paginas: 152},
+    {id: 13, nombre: 'Destinado Al Exito', precio: 1485, editorial: 'Vida', año: 2009, paginas: 208},
+    {id: 14, nombre: 'El Amor En Los Tiempos Del Facebook', precio: 1250, editorial: 'Vida', año: 2016, paginas: 204},
+    {id: 15, nombre: 'El Codigo Del Campeon', precio: 1330, editorial: 'Vida', año: 2007, paginas: 184},
+    {id: 16, nombre: 'Las Arenas Del Alma', precio: 1785, editorial: 'Vida', año: 2017, paginas: 182},
+    {id: 17, nombre: 'Marea Baja', precio: 1545, editorial: 'Harper Collins', año: 2017, paginas: 237},
+    {id: 18, nombre: 'Pasion De Multitudes', precio: 1620, editorial: 'Vida', año: 2009, paginas: 224},
+    {id: 19, nombre: 'Los Mejores Mensajes De Dante Gebel', precio: 1380, editorial: 'Vida', año: 2008, paginas: 192},
+    {id: 20, nombre: 'El Adn Divino', precio: 450, editorial: 'Peniel', año: 2014, paginas: 111},
+    {id: 21, nombre: 'Amar Es Para Valientes', precio: 1450, editorial: 'E625', año: 2020, paginas: 152},
+    {id: 22, nombre: 'Un Papa Conforme Al Corazon De Dios', precio: 1330, editorial: 'Portavoz', año: 2015, paginas: 223},
+    {id: 23, nombre: 'Un Esposo Conforme Al Corazon De Dios', precio: 450, editorial: 'Portavoz', año: 2004, paginas: 246},
+    {id: 24, nombre: 'Conoce Tu Biblia Desde La A Hasta La Z', precio: 1480, editorial: 'Portavoz', año: 2018, paginas: 247},
+    {id: 25, nombre: 'Las 50 Enseñanzas Mas Importantes De La Biblia', precio: 1380, editorial: 'Portavoz', año: 2017, paginas: 220},
+    {id: 26, nombre: 'Guia De Un Joven Para Las Buenas Decisiones', precio: 1330, editorial: 'Portavoz', año: 2017, paginas: 176},
+    {id: 27, nombre: 'La Influencia De Un Hombre De Dios', precio: 430, editorial: 'Portavoz', año: 2013, paginas: 205},
+    {id: 28, nombre: 'Un Hombre Conforme Al Corazon De Dios', precio: 700, editorial: 'Portavoz', año: 2005, paginas: 240},
+    {id: 29, nombre: 'Inspirada Por Dios', precio: 1255, editorial: 'Mundo Hispano', año: 2016, paginas: 242},
+    {id: 30, nombre: 'Papas Comprometidos', precio: 970, editorial: 'Mundo Hispano', año: 2015, paginas: 208},
+    {id: 31, nombre: 'Mas Que Un Carpintero', precio: 550, editorial: 'Unilit', año: 2012, paginas: 247},
+    {id: 32, nombre: 'Evidencia Que Demanda Un Veredicto', precio: 4340, editorial: 'Mundo Hispano', año: 2019, paginas: 1008},
+    {id: 33, nombre: '¿Tolerancia o Intolerancia?', precio: 1600, editorial: 'Unilit', año: 2018, paginas: 235},
+    {id: 34, nombre: 'El Verdadero Amor Espera', precio: 1460, editorial: 'CLC', año: 2017, paginas: 304},
+    {id: 35, nombre: 'La Conexion De La Mente', precio: 1700, editorial: 'Faith Word', año: 2015, paginas: 242},
+    {id: 36, nombre: 'Conozca A Dios Intimamente', precio: 1580, editorial: 'Casa Creación', año: 2015, paginas: 368},
+    {id: 37, nombre: 'Las Siete Cosas Que Te Roban El Gozo', precio: 1825, editorial: 'Faith Word', año: 2004, paginas: 233},
+    {id: 38, nombre: 'El Poder De La Determinacion', precio: 365, editorial: 'Peniel', año: 2005, paginas: 125},
+    {id: 39, nombre: 'Confianza Inquebrantable', precio: 1695, editorial: 'Faith Word', año: 2014, paginas: 230},
+    {id: 40, nombre: 'Usted Puede Comenzar De Nuevo', precio: 1480, editorial: 'Faith Word', año: 2014, paginas: 205},
+    {id: 41, nombre: 'Como Profundizar Su Relacion Con Dios', precio: 450, editorial: 'Peniel', año: 2013, paginas: 125},
+    {id: 42, nombre: 'El Campo De Batalla De La Mente', precio: 1760, editorial: 'Faith Word', año: 2011, paginas: 257},
+    {id: 43, nombre: 'El Papa Imperfecto', precio: 1020, editorial: 'Hoja Del Sur', año: 2011, paginas: 174},
+    {id: 44, nombre: 'Agorafobia', precio: 1330, editorial: 'Vida', año: 2009, paginas: 145},
+    {id: 45, nombre: 'Elvis, Pitagoras Y La Historia De Dios', editorial: 1890, editorial: 'Vida Publishers', año: 2013, paginas: 218},
+    {id: 46, nombre: 'El Poder Mas Grande Del Mundo', precio: 895, editorial: 'Peniel', año: 2008, paginas: 142},
+    {id: 47, nombre: 'Jesucristo Nuestro Sanador', precio: 1060, editorial: 'Peniel', año: 2007, paginas: 188},
+    {id: 48, nombre: 'El Toque Del Maestro', precio: 350, editorial: 'Peniel', año: 2009, paginas: 110},
+    {id: 49, nombre: 'Guia De Supervivencia Para Universitarios', precio: 970, editorial: 'E625', año: 2020, paginas: 152},
+    {id: 50, nombre: 'Diferente', precio: 1400, editorial: 'Vida', año: 2015, paginas: 190},
+    {id: 51, nombre: 'La Batalla De Las Drogas', precio: 1095, editorial: 'Vida', año: 2013, paginas: 103},
+    {id: 52, nombre: 'Liderazgo Generacional', precio: 1330, editorial: 'E625', año: 2017, paginas: 217},
+    {id: 53, nombre: 'Postrados En Adoracion', precio: 250, editorial: 'Peniel', año: 2005, paginas: 120},
+    {id: 54, nombre: 'Lo Que Todo Adorador Debe Saber', precio: 980, editorial: 'Peniel', año: 2004, paginas: 156},
+    {id: 55, nombre: 'El Adorador Insaciable', precio: 400, editorial: 'Peniel', año: 2011, paginas: 124},
+    {id: 56, nombre: 'Como Comenzar Tu Ministerio Con Pasos Firmes', precio: 1210, editorial: 'E625', año: 2018, paginas: 168},
+    {id: 57, nombre: 'Como Salvar Tu Matrimonio Antes De Casarte', precio: 1230, editorial: 'E625', año: 2017, paginas: 192},
+    {id: 58, nombre: 'Los Mas Buscados', precio: 680, editorial: 'Certeza', año: 2014, paginas: 127},
+    {id: 59, nombre: 'Imagineria', precio: 1220, editorial: 'E625', año: 2021, paginas: 192},
+    {id: 60, nombre: 'Amigos Sin Beneficios', precio: 1210, editorial: 'Unilit', año: 2011, paginas: 175},
+    {id: 61, nombre: 'Un Matrimonio Aun Mejor', precio: 525, editorial: 'Unilit', año: 2017, paginas: 111},
+    {id: 62, nombre: 'Tome Control De Lo Que Lo Controla', precio: 970, editorial: 'Casa Creacion', año: 2007, paginas: 123},
+    {id: 63, nombre: 'Ser Cristiano', precio: 1150, editorial: 'Peniel', año: 2008, paginas: 240},
+    {id: 64, nombre: 'La Batalla De Cada Hombre', precio: 750, editorial: 'Unilit', año: 2013, paginas: 247},
+    {id: 65, nombre: 'Aviva El Fuego De Tu Don', precio: 1025, editorial: 'Peniel', año: 2013, paginas: 287},
+    {id: 66, nombre: 'La Ciencia De La Oracion', precio: 1110, editorial: 'Unilit', año: 1994, paginas: 145},
+    {id: 67, nombre: 'El Valle De Los Huesos Secos', precio: 875, editorial: 'Unilit', año: 1996, paginas: 48}
+]
+
+// Utilización de SOME para saber si el libro que busca está en la libreria
+const nombre = prompt('¿Este libro existe?').toLowerCase()
+const existe = productos.some(p => p.nombre.toLowerCase() === nombre)
+console.log(existe)
+
+// Filtro para acomodar a los libros que cuestan menos de $1000 en orden alfabético
+const baratos = productos.filter(p => p.precio < 1000)
+
+baratos.sort((a, b) => {
+    if(a.nombre > b.nombre) return 1
+    if(a.nombre < b.nombre) return -1
+
+    return 0
+})
+
+console.log('Baratos: ', baratos)
+
+// Filtro para acomodar a los libros que cuestan menos de $1000 en orden alfabético
+const caros = productos.filter(p => p.precio > 1000)
+
+caros.sort((a, b) => {
+    if(a.nombre > b.nombre) return 1
+    if(a.nombre < b.nombre) return -1
+
+    return 0
+})
+
+console.log('Caros:', caros)
