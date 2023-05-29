@@ -1,0 +1,72 @@
+@import '../base/mapas';
+
+%titulos-secundarios {
+    font-size: map-get($font-sizes, fs-2);
+    display: flex;
+    justify-content: center;
+    padding-top: map-get($spacers, p-4);
+    padding-bottom: map-get($spacers, p-4);
+}
+
+%productos {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+%productos-txt {
+    font-size: map-get($font-sizes, fs-6);
+    text-align: center;
+    padding-top: map-get($spacers, p-3);
+}
+
+%alineacion-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+%alineacion-redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
+    padding-top: map-get($spacers, p-3);
+    width: 50%;
+}
+
+%animaciones-scale {
+    transition: all 0.5s;
+    &:hover {
+        transform: scale(1.1);
+        opacity: 0.85;
+    }
+}
+
+.animation-scale {
+    @extend %animaciones-scale;
+}
+
+.title-sec {
+    @extend %titulos-secundarios;
+}
+
+.box-products {
+    @extend %productos;
+}
+
+.txt-products {
+    @extend %productos-txt;
+}
+
+.align-containers {
+    @extend %alineacion-footer;
+}
+
+.align-redes {
+    @extend %alineacion-redes;
+}

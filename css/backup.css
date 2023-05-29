@@ -1,0 +1,118 @@
+/* ESTILOS PARA EL HEADER */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg-color {
+    background-color: hsl(0, 70%, 50%);
+}
+
+h1 {
+    color: #FFF;
+}
+
+.animation-move {
+    display: inline-block;
+    margin: 0 0.5rem;
+
+    animation: flipInX;
+    animation-duration: 2s;
+}
+
+.nav-top:hover {
+    opacity: 0.5 !important;
+}
+/* FIN ESTILOS PARA EL HEADER */
+
+/* ESTILOS PARA PRE PRODUCTOS */
+.animation-spurgeon {
+    display: inline-block;
+    margin: 0 0.5rem;
+
+    animation: backInRight;
+    animation-duration: 1.5s;
+    border-radius: 5px;
+}
+
+.animation-texto-biblias{
+    display: inline-block;
+    margin: 0 0.5rem;
+
+    animation: backInLeft;
+    animation-duration: 1.5s;
+}
+
+.animation-texto-autores {
+    display: inline-block;
+    margin: 0 0.5rem;
+
+    animation: backInRight;
+    animation-duration: 1.5s;
+}
+
+.animation-autores {
+    display: inline-block;
+    margin: 0 0.5rem;
+
+    animation: backInLeft;
+    animation-duration: 1.5s;
+    border-radius: 5px;
+}
+/* FIN ESTILOS PARA PRE PRODUCTOS */
+
+/* ESTILOS PARA CAJAS */
+.animation-boxs {
+    transition: all 1s;
+}
+
+.animation-boxs:hover {
+    transform: scale(1.5);
+}
+/* FIN DE ESTILOS PARA CAJAS */
+
+/* ESTILOS PARA LOS GRIDS DE LAS PÁGINAS */
+.animation-img {
+    display: inline-block;
+    margin: 0 0.5rem;
+
+    animation: backInUp;
+    animation-duration: 2s;
+}
+
+.animation-txt {
+    display: inline-block;
+    margin: 0 0.5rem;
+
+    animation: backInDown;
+    animation-duration: 2s;
+}
+/* FIN ESTILOS PARA LOS GRIDS DE LAS PÁGINAS */
+
+/* ESTILOS NAVEGACIÓN ENTRE PÁGINAS */
+.color-navigation {
+    color: hsl(0, 70%, 50%);
+}
+/* FIN ESTILOS NAVEGACIÓN */
+
+/* ESTILOS PARA EL FOOTER */
+.bg-color-pre-footer {
+    background-color: hsl(0, 5%, 85%);
+}
+
+.color-pre-footer {
+    color: #000;
+}
+
+.bg-color-footer {
+    background-color: hsl(0, 1%, 21%);
+}
+
+.texto-footer {
+    color: #FFF;
+    padding-left: 10px;
+}
+
+.ls-style {
+    list-style-type: none;
+}
+/* FIN DE ESTILOS PARA EL FOOTER */

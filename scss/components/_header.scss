@@ -1,0 +1,24 @@
+/* Estilos Header */
+@import '../base/mapas';
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    .bg-color {
+        background-color: map-get($header, bg-color);
+        .img-logo {
+            width: 45px;
+            height: 60px;
+        }
+        h1 {
+            color: map-get($header, txt-header);
+        }
+        .nav-top:hover {
+            opacity: 0.5;
+        }
+    }
+}
+
+/* Fin estilos Header */

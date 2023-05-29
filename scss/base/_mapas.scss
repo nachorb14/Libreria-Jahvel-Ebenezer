@@ -1,0 +1,44 @@
+$header: (
+    bg-color: hsl(0, 70%, 50%),
+    txt-header: #FFF,
+);
+
+$footer: (
+    bg-color: hsl(0, 1%, 21%),
+    txt-footer: #FFF,
+    ls-style: none,
+    a-decoration: none,
+);
+
+$pre-footer: (
+    bg-color: hsl(0, 5%, 85%),
+    decoration: none,
+    txt-pre-footer: #000,
+);
+
+
+$font-size-base: 1rem;
+$font-sizes: (
+    fs-1: $font-size-base * 2.5,
+    fs-2: $font-size-base * 2,
+    fs-3: $font-size-base * 1.75,
+    fs-4: $font-size-base * 1.5,
+    fs-5: $font-size-base * 1.25,
+    fs-6: $font-size-base,
+);
+
+$spacer: 1rem;
+$spacers: (
+    p-0: 0,
+    p-1: $spacer * .25,
+    p-2: $spacer * .5,
+    p-3: $spacer,
+    p-4: $spacer * 1.5,
+    p-5: $spacer * 3,
+    m-0: 0,
+    m-1: $spacer * .25,
+    m-2: $spacer * .5,
+    m-3: $spacer,
+    m-4: $spacer * 1.5,
+    m-5: $spacer * 3,
+);

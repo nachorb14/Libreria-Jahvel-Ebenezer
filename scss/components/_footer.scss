@@ -1,0 +1,46 @@
+/* Estilos del Footer */
+@import '../base/mapas';
+@import '../base/mixins';
+
+footer {
+    .bg-color-footer {
+        background-color: map-get($footer, bg-color);
+        height: 100%;
+    }
+    .img-logo {
+        width: 45px;
+        height: 60px;
+    }
+    .txt-footer-desc {
+        @include footer-description(1rem, 1rem, 10px, #FFF, center);
+    }
+    .txt-footer-contenido {
+        @include footer-contenido(1.5rem, 1rem, 1.5rem, #FFF, center);
+    }
+    .txt-footer-contacto {
+        @include footer-contacto(1.5rem, 0.5rem, #FFF, center);
+    }
+    .txt-contactos {
+        @include contactos(1rem, 1rem, 10px, #FFF);
+    }
+    .texto-footer {
+        color: map-get($footer, txt-footer);
+        padding-left: 10px;
+    }
+    .ls-style {
+        list-style-type: map-get($footer, ls-style);
+    }
+    a {
+        text-decoration: map-get($footer, a-decoration);
+        &:hover {
+            opacity: 0.5;
+        }
+    }
+    .img-footer {
+        width: 40px;
+    }
+    .img-redes-footer {
+        width: 45px;
+    }
+}
+/* Fin estilos del footer */

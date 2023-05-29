@@ -1,0 +1,21 @@
+/* Estilos pre footer */
+@import '../base/mapas';
+@import '../base/mixins';
+
+footer {
+    .bg-color-pre-footer {
+        background-color: map-get($pre-footer, bg-color);
+        height: 100%;
+        .img-pre-footer {
+            width: 50px;
+        }
+        a {
+            text-decoration: map-get($pre-footer, decoration);
+        }
+        .txt-pre-footer {
+            @include pre-footer(1rem, #000, 1rem, 1.5rem);
+        }
+    }
+}
+
+/* Fin de estilos pre footer */
